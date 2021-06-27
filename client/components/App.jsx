@@ -1,10 +1,13 @@
-import React, {useState, useEffect} from 'react'
-import {getGreeting} from '../apiClient'
+import React from 'react'
+import { Route } from 'react-router-dom'
+import Header from './Header'
+import Home from './Home'
 
 function App () {
   return (
     <>
-      <h1>David's Site</h1>
+      <Header />
+      <Route exact path='/' component={Home} />
     </>
   )
 }
