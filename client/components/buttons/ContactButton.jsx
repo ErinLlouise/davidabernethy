@@ -1,10 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function ContactButton () {
   return (
-    <>
-      <button>contact</button>
-    </>
+    <div>
+      <Link to='/contact'>
+        <button className="">contact</button>
+      </Link>
+    </div>
   )
 }
 

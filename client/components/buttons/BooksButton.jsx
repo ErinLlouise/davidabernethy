@@ -1,10 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function BooksButton () {
   return (
-    <>
-      <button>books</button>
-    </>
+    <div>
+      <Link to='/books'>
+        <button className="">books</button>
+      </Link>
+    </div>
   )
 }
 

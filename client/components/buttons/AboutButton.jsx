@@ -1,10 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function AboutButton () {
   return (
-    <>
-      <button>about</button>
-    </>
+    <div>
+      <Link to='/about'>
+        <button className="">about</button>
+      </Link>
+    </div>
   )
 }
 
