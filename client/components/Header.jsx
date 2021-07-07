@@ -1,16 +1,18 @@
 import React from 'react'
 import AboutButton from './buttons/AboutButton'
-import BooksButton from './buttons/BooksButton'
 import ContactButton from './buttons/ContactButton'
 import HomeButton from './buttons/HomeButton'
 
 function Header () {
   return (
     <>
-      <AboutButton />
-      <BooksButton />
-      <ContactButton />
-      <HomeButton />
+      <div className='flex items-center justify-between p-8 shadow-lg'>
+        <HomeButton />
+        <div className='flex'>
+          <AboutButton />
+          <ContactButton />
+        </div>
+      </div>
     </>
   )
 }

@@ -5,7 +5,7 @@ function HomeButton () {
   return (
     <div>
       <Link to='/'>
-        <button className="">home</button>
+        <button className="pl-4">home</button>
       </Link>
     </div>
   )

@@ -5,7 +5,7 @@ function AboutButton () {
   return (
     <div>
       <Link to='/about'>
-        <button className="">about</button>
+        <button className="pr-4">about</button>
       </Link>
     </div>
   )

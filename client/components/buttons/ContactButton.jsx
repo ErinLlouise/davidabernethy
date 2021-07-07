@@ -5,7 +5,7 @@ function ContactButton () {
   return (
     <div>
       <Link to='/contact'>
-        <button className="">contact</button>
+        <button className="pl-4 pr-4">contact</button>
       </Link>
     </div>
   )
