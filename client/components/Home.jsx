@@ -4,10 +4,10 @@ function Home () {
   return (
     <>
       <div>
-        <div className='flex justify-center m-10'>
-          <h1>David Brian Abernethy</h1>
+        <div className='flex justify-center mt-8 mb-8 p-8 font-serif text-6xl'>
+          <h1>David Abernethy</h1>
         </div>
-        <div className='flex flex-row justify-centre bg-white rounded overflow-hidden shadow ml-80 mr-80 p-8'>
+        <div className='flex flex-row justify-center bg-white rounded overflow-hidden shadow-lg ml-80 mr-80 p-8'>
           <div className='flex flex-col'>
             <img className='flex w-96' src='/images/IQ.jpg'></img>
             <h2>Latest Release</h2>
