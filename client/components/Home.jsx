@@ -1,35 +1,15 @@
 import React from 'react'
+import LatestRelease from './LatestRelease'
+import ProphetCard from './ProphetCard'
 
 function Home () {
   return (
     <>
       <div>
-        <div className='flex justify-center mt-8 mb-8 p-8 font-serif text-6xl'>
-          <h1>David Abernethy</h1>
-        </div>
-        <div className='flex flex-row justify-center bg-white rounded overflow-hidden shadow-lg ml-80 mr-80 p-8'>
-          <div className='flex flex-col'>
-            <img className='flex w-96' src='/images/IQ.jpg'></img>
-            <h2>Latest Release</h2>
-            <span>IQ and the Y2K</span>
-            <p>
-            IQ was a rev from Sirius C Major. In his search for a star-translayer
-            and some Y2K to power his spaceship, he ended up on Earth. There he
-            met university students, George, Charley and Steve, and eccentric
-            homeless character, Madison. The gang tried to help IQ with his mission,
-            but their earthly priorities tended to hinder rather than help him.
-            Things become really crazy when the FBI get involved.
-            </p>
-          </div>
-        </div>
-
-        <h1>Also by David Abernethy</h1>
-        <div className='bg-white rounded overflow-hidden shadow'>
-          <span>The Prophet from Silicon Valley</span>
-          <span><em>The Complete Story of Sequential Circuits</em></span>
-          <img className='flex w-96' src='/images/prophet.jpg'></img>
-          <button className='bg-gray-100 rounded shadow-sm'>see more</button>
-        </div>
+        <h1 className='flex justify-center mt-8 mb-8 p-8 font-serif text-6xl'>David Abernethy</h1>
+        <LatestRelease />
+        <h1 className='flex justify-center mt-8 mb-8 p-8 font-serif text-6xl'>Also by David Abernethy</h1>
+        <ProphetCard />
       </div>
     </>
   )
