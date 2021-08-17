@@ -1,4 +1,5 @@
 import React from 'react'
+import IqSeeMoreButton from './buttons/IqSeeMoreButton'
 
 function LatestRelease () {
   return (
@@ -16,6 +17,7 @@ function LatestRelease () {
             but their earthly priorities tended to hinder rather than help him.
             Things become really crazy when the FBI get involved.
           </p>
+          <IqSeeMoreButton />
         </div>
       </div>
     </>

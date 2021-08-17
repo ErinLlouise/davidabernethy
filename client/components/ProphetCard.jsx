@@ -1,4 +1,5 @@
 import React from 'react'
+import ProphetSeeMoreButton from './buttons/ProphetSeeMoreButton'
 
 function ProphetCard () {
   return (
@@ -20,6 +21,7 @@ function ProphetCard () {
             movement into the next decade, creating a sonically exciting soundtrack
             to eighties culture.
           </p>
+          <ProphetSeeMoreButton />
         </div>
       </div>
     </>
