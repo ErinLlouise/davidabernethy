@@ -10,27 +10,13 @@ function About () {
         </div>
         <h3 className='col-start-3 col-span-4 font-serif text-lg'><em>Author</em></h3>
         <p className='col-start-3 col-span-4 row-start-4 row-span-8'>
-          David Abernethy... Lorem ipsum
-          dolor sit, amet consectetur adipisicing elit. Inventore,
-          maiores nesciunt. Esse veritatis consequuntur, molestiae
-          magni doloremque culpa omnis, voluptas, repellendus doloribus
-          illo accusamus alias accusantium mollitia tempora perferendis
-          impedit?
-          <br></br>Inventore, maiores nesciunt. Esse veritatis consequuntur,
-          molestiae magni doloremque culpa omnis, voluptas, repellendus
-          doloribus illo accusamus alias accusantium mollitia tempora
-          perferendis impedit?
-          <br></br>
-          Lorem ipsum
-          dolor sit, amet consectetur adipisicing elit. Inventore,
-          maiores nesciunt. Esse veritatis consequuntur, molestiae
-          magni doloremque culpa omnis, voluptas, repellendus doloribus
-          illo accusamus alias accusantium mollitia tempora perferendis
-          impedit?
-          <br></br>Inventore, maiores nesciunt. Esse veritatis consequuntur,
-          molestiae magni doloremque culpa omnis, voluptas, repellendus
-          doloribus illo accusamus alias accusantium mollitia tempora
-          perferendis impedit?
+        David Abernethy is an electrical engineer/musician/writer/vintage
+        synth fanatic from planet Earth. His first publication
+          <em>The Prophet from Silicon Valley (2015)</em> was the result
+        of many years of fanatical research. He now brings you something
+        completely different - a sci-fi comedy in the form of the IQ series.
+        First book out now, <em>IQ and the Y2K</em>.
+
         </p>
       </div>
       <div className='grid grid-flow-col grid-cols-12 grid-rows-12 gap-4 pt-20'>
