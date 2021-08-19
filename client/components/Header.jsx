@@ -6,7 +6,7 @@ import HomeButton from './buttons/HomeButton'
 function Header () {
   return (
     <>
-      <div className='flex items-center justify-between p-4 shadow-lg bg-black'>
+      <div className='sticky top-0 flex items-center justify-between p-4 shadow-xl bg-black bg-opacity-90'>
         <HomeButton />
         <div className='flex'>
           <AboutButton />

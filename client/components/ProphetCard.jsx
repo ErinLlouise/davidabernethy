@@ -4,8 +4,7 @@ import ProphetSeeMoreButton from './buttons/ProphetSeeMoreButton'
 function ProphetCard () {
   return (
     <>
-      <div className='grid justify-center grid-flow-col grid-cols-12 grid-rows-12 gap-4x'>
-        <h1 className='col-start-5 col-span-6 font-hero-font font-serif text-7xl pt-20'></h1>
+      <div className='grid justify-center grid-flow-col grid-cols-12 grid-rows-12 gap-4x pb-20'>
         <div className='col-start-3 col-span-8 bg-transparent rounded-md shadow-lg mt-20'>
           <h1 className='col-start-4 col-span-3 row-start-3 font-hero-font font-serif text-4xl p-10'>The Prophet from Silicon Valley – The complete story of Sequential Circuits</h1>
           <div className='flex'>

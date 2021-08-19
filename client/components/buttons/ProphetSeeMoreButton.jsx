@@ -5,7 +5,7 @@ function ProphetSeeMoreButton () {
   return (
     <>
       <Link to='/prophet'>
-        <button>see more</button>
+        <button className='m-auto text-black hover:text-yellow-500 transition ease-out duration-500 font-serif'>see more</button>
       </Link>
     </>
   )
