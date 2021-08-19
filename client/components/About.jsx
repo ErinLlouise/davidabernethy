@@ -7,7 +7,7 @@ function About () {
         <h1 className='col-start-3 col-span-4 row-start-1 font-hero-font font-serif text-7xl'>David Abernethy</h1>
         <div className='flex col-start-7 col-span-4 row-start-1 row-span-5'>
           <figure>
-            <img className='rounded shadow transform w-auto h-96 sm:h-36 sm:w-auto md:h-60 md:w-auto lg:h-96 lg:w-auto hover:transition duration-500 hover:scale-105'src='/images/standing.jpg'></img>
+            <img className='z-0 rounded shadow transform w-auto h-96 sm:h-36 sm:w-auto md:h-60 md:w-auto lg:h-96 lg:w-auto hover:transition duration-500 hover:scale-105'src='/images/standing.jpg'></img>
             <figcaption className='text-xs pt-2'><em>David Abernethy (left), Dave Smith (right)</em></figcaption>
           </figure>
         </div>
