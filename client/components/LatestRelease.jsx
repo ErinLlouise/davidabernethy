@@ -4,11 +4,13 @@ import IqSeeMoreButton from './buttons/IqSeeMoreButton'
 function LatestRelease () {
   return (
     <>
-      <h1 className='flex justify-center font-hero-font font-serif text-7xl pt-20'>David Abernethy</h1>
-      <h3 className='flex justify-center font-serif text-md pt-6'><em>Author/Musician/Electrical Engineer - Auckland, New Zealand</em></h3>
+      <h1 className='flex justify-center font-hero-font font-serif text-7xl pt-20'>Praxis Books presents...</h1>
+      <h3 className='flex justify-center font-serif text-4xl pt-8'>David Abernethy</h3>
+      <h3 className='flex justify-center text-sm pt-6'><em>Author/Musician/Electrical Engineer - Auckland, New Zealand</em></h3>
       <div className='grid justify-center grid-flow-col grid-cols-12 grid-rows-12 gap-4x'>
-        <div className='col-start-3 col-span-8 bg-transparent rounded-md shadow-lg mt-14'>
-          <h1 className='col-start-4 col-span-3 row-start-3 font-hero-font font-serif text-4xl p-10'>IQ and the Y2K</h1>
+        <div className='col-start-3 col-span-8 bg-transparent rounded-md shadow-lg mt-4'>
+          <h1 className='col-start-4 col-span-3 row-start-3 font-hero-font font-serif font-extralight text-xl pt-10 pl-10'>Latest Release</h1>
+          <h1 className='col-start-4 col-span-3 row-start-3 font-hero-font font-serif text-4xl pt-6 pl-10 pb-10'>IQ and the Y2K</h1>
           <div className='flex'>
             <img className='w-96 h-auto pl-10 pb-10'src='/images/IQ.jpg'></img>
             <div className='pl-4 pr-10'>
