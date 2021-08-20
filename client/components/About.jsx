@@ -24,10 +24,6 @@ function About () {
       <div className='grid grid-flow-col grid-cols-12 grid-rows-12 gap-4 pt-20 pb-20'>
         <h1 className='col-start-3 col-span-4 row-start-1 font-hero-font font-serif text-7xl'>Praxis Books</h1>
         <div className='flex col-start-7 col-span-4 row-start-1 row-span-5'>
-          <figure>
-            <img className='rounded shadow transform w-auto h-96 sm:h-36 sm:w-auto md:h-60 md:w-auto lg:h-96 lg:w-auto hover:transition duration-500 hover:scale-105'src='/images/sitting.jpg'></img>
-            <figcaption className='text-xs pt-2'><em>David Abernethy (left), Dave Smith (right)</em></figcaption>
-          </figure>
         </div>
         <h3 className='col-start-3 col-span-4 font-serif text-lg'><em>Praxis Group International Ltd</em></h3>
         <p className='col-start-3 col-span-4 row-start-3 row-span-8 pt-6'>
