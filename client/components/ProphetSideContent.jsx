@@ -6,7 +6,7 @@ function ProphetSideContent () {
       <div className='flex'>
         <figure>
           <img className='w-96 h-auto pb-4'src='/images/prophet.jpg'></img>
-          <figcaption className='text-xs pb-20'>ISBN 978-1-512-19832-4</figcaption>
+          <figcaption className='text-xs pb-10'>ISBN 978-1-512-19832-4</figcaption>
         </figure>
         <div className='pl-10'>
           <p>
@@ -32,7 +32,7 @@ function ProphetSideContent () {
           </p>
           <p className='pt-6 mb-4'>
             <em>
-                IQ and the Y2K, available in:
+                The Prophet from Silicon Valley, available in:
               <br></br>
               <br></br>
                     Paperback (203 x 127 x 12.5mm HWD)
