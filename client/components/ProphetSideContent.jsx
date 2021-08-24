@@ -43,7 +43,7 @@ function ProphetSideContent () {
           </p>
           <p>
             <em>
-                Buy on <a className='m-auto pt-10 underline'href='https://www.amazon.com/IQ-Y2K-David-Abernethy/dp/0473551888'>Amazon</a> herea
+                Buy on <a className='m-auto pt-10 underline'href='https://www.amazon.com/IQ-Y2K-David-Abernethy/dp/0473551888'>Amazon</a> here
             </em>
           </p>
         </div>
