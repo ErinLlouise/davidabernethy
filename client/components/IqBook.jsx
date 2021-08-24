@@ -18,7 +18,7 @@ function IqBook () {
             <div className='flex'>
               <figure>
                 <img className='w-80 h-auto pb-4'src='/images/IQ.jpg'></img>
-                <figcaption className='text-xs'>ISBN 978-0-473-55188-9</figcaption>
+                <figcaption className='text-xs pb-20'>ISBN 978-0-473-55188-9</figcaption>
               </figure>
               <div>
                 <p className='pl-4'>
