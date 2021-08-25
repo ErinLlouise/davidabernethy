@@ -21,7 +21,9 @@ function ProphetCard () {
                 powerful polyphonic synthesis to all levels of music production in the form of
                 the ground-breaking Prophet-5 synthesizer.
               </p>
-              <ProphetSeeMoreButton />
+              <div className='mt-4'>
+                <ProphetSeeMoreButton />
+              </div>
             </div>
           </div>
         </div>
