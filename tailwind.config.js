@@ -1,9 +1,14 @@
 module.exports = {
   theme: {
-    extend: {
-      backgroundImage: theme => ({
-        'led-header': "url('/server/public/images/LED.jpg')"
-      })
+    height: {
+      sm: '8px',
+      md: '16px',
+      lg: '480px'
+    },
+    width: {
+      sm: '',
+      md: '',
+      lg: '853px'
     }
   }
 }

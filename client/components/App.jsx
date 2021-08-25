@@ -7,6 +7,7 @@ import Home from './Home'
 import Footer from './Footer'
 import IqBook from './IqBook'
 import ProphetBook from './ProphetBook'
+import BackButton from './buttons/BackButton'
 
 function App () {
   return (
@@ -17,6 +18,7 @@ function App () {
       <Route path='/contact' component={Contact} />
       <Route path='/iq' component={IqBook} />
       <Route path='/prophet' component={ProphetBook} />
+      <BackButton />
       <Footer />
     </>
   )

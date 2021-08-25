@@ -5,8 +5,8 @@ function BackButton () {
   const history = useHistory()
   return (
     <>
-      <Link>
-        <img className='transform sm:h-6 sm:w-auto md:h-6 md:w-auto lg:h-8 lg:w-auto hover:transition duration-500 hover:scale-125 h-8 w-auto pl-2 pt-2 opacity-80'src='/images/back.png' onClick={() => history.goBack()}></img>
+      <Link className='flex justify-start sticky bottom-10'>
+        <img className='transform sm:h-4 sm:w-auto md:h-8 md:w-auto lg:h-12 lg:w-auto hover:transition duration-500 hover:scale-125 h-20 w-auto p-2 opacity-60'src='/images/blackback.png' onClick={() => history.goBack()}></img>
       </Link>
     </>
   )
