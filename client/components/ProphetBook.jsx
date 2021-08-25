@@ -34,7 +34,7 @@ function ProphetBook () {
         <div className='grid justify-center grid-flow-col grid-cols-12 grid-rows-12 gap-4x'>
           <h1 className='col-start-3 col-span-8 row-start-1 font-hero-font font-serif text-5xl pt-20 pb-10'>More on The Prophet from Silicon Valley...</h1>
           <h2 className='col-start-3 col-span-8 row-start-2'>Alex Ball describes the book as, &#34;a bible&#34; on the subject of Prophet Synthesizers in his YouTube video, The History of the Prophet Synthesizer</h2>
-          <div className='col-start-5 col-end-8 row-start-3 row-span-2'>
+          <div className='col-start-3 col-end-8 row-start-3 row-span-2 mt-20 mb-20 ml-28 transform scale-150'>
             <YouTubeEmbed />
           </div>
           <p className='col-start-3 col-span-8 row-start-5 row-span-2'>
