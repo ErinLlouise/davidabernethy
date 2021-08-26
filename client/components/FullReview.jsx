@@ -24,7 +24,7 @@ function ReadMore ({ children, maxCharacterCount = 912 }) {
 function FullReview (text) {
   return (
     <>
-      <div>
+      <div className='break-normal'>
         <ReadMore maxCharacterCount={912}>
            As George Harrison once told my friend Martin Smith at Streetly Electronics,
            “History is bollocks. If you weren’t there, you don’t know.” I suspect that

@@ -2,6 +2,7 @@ import React from 'react'
 import ComingSoonCard from './ComingSoonCard'
 import LatestRelease from './LatestRelease'
 import ProphetCard from './ProphetCard'
+import Deck from './Deck'
 
 function Home () {
   return (
@@ -14,6 +15,7 @@ function Home () {
         <LatestRelease />
         <ProphetCard />
         <ComingSoonCard />
+        <Deck />
       </div>
     </>
   )
