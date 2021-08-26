@@ -5,7 +5,7 @@ function Deck () {
   const [currentImage, setCurrentImage] = useState(0)
   return (
     <>
-      <div className='flex w-full'>
+      <div className='flex'>
         <div className='float-left'>
           <button onClick={() => {
             console.log('this has been clicked')
@@ -14,6 +14,7 @@ function Deck () {
           >back</button>
         </div>
         <img
+          className='w-96 h-auto'
           src={images[currentImage].imageUrl}
           // style={{ mainImage: `url(${images[currentImage].imageUrl})` }}
         >
