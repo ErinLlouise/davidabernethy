@@ -1,10 +1,13 @@
 import React from 'react'
-import CardSlider from './Deck'
+// import { images } from './CarouselData'
 
 function Deck () {
   return (
     <>
-      <CardSlider />
+      <div className=''>
+        <h1>This works</h1>
+        {/* <img src={images[0].image}></img> */}
+      </div>
     </>
   )
 }
