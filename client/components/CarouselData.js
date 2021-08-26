@@ -1,20 +1,54 @@
-// import ImageData02 from '../../server/public/images/ImgSlider/slider02.JPG'
-// import ImageData03 from '../../server/public/images/ImgSlider/slider03.JPG'
-
 export const images = [
   {
     title: 'First Image',
-    subtitle: 'this is the first image',
-    image: '/images/ImgSlider/slider01.JPG'
+    imageUrl: '/images/ImgSlider/slider01.JPG'
+  },
+  {
+    title: 'Second Image',
+    imageUrl: '/images/ImgSlider/slider02.JPG'
+  },
+  {
+    title: 'Third Image',
+    imageUrl: 'images/ImgSlider/slider03.JPG'
+  },
+  {
+    title: 'Third Image',
+    imageUrl: 'images/ImgSlider/slider04.JPG'
+  },
+  {
+    title: 'Third Image',
+    imageUrl: 'images/ImgSlider/slider05.JPG'
+  },
+  {
+    title: 'Third Image',
+    imageUrl: 'images/ImgSlider/slider06.JPG'
+  },
+  {
+    title: 'Third Image',
+    imageUrl: 'images/ImgSlider/slider07.JPG'
+  },
+  {
+    title: 'Third Image',
+    imageUrl: 'images/ImgSlider/slider08.JPG'
+  },
+  {
+    title: 'Third Image',
+    imageUrl: 'images/ImgSlider/slider09.JPG'
+  },
+  {
+    title: 'Third Image',
+    imageUrl: 'images/ImgSlider/slider10.JPG'
+  },
+  {
+    title: 'Third Image',
+    imageUrl: 'images/ImgSlider/slider11.JPG'
+  },
+  {
+    title: 'Third Image',
+    imageUrl: 'images/ImgSlider/slider12.JPG'
+  },
+  {
+    title: 'Third Image',
+    imageUrl: 'images/ImgSlider/slider13.JPG'
   }
-  // {
-  //   title: 'Second Image',
-  //   subtitle: 'this is the second image',
-  //   image: ImageData02
-  // },
-  // {
-  //   title: 'Third Image',
-  //   subtitle: 'this is the third image',
-  //   image: ImageData03
-  // }
 ]
