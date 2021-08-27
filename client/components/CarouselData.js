@@ -1,16 +1,16 @@
 export const images = [
-  {
-    title: 'A home made synthesizer using an arduino uno and paper clips',
-    imageUrl: '/images/ImgSlider/slider01.JPG'
-  },
+  // {
+  //   title: 'A home made synthesizer using an arduino uno and paper clips',
+  //   imageUrl: '/images/ImgSlider/slider01.JPG'
+  // },
   {
     title: 'minimoog synthesizer',
     imageUrl: '/images/ImgSlider/slider02.JPG'
   },
-  {
-    title: 'David A and his first book',
-    imageUrl: 'images/ImgSlider/slider03.JPG'
-  },
+  // {
+  //   title: 'David A and his first book',
+  //   imageUrl: 'images/ImgSlider/slider03.JPG'
+  // },
   {
     title: 'Sequential Circuits',
     imageUrl: 'images/ImgSlider/slider04.JPG'
