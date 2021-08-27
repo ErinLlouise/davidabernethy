@@ -13,11 +13,14 @@ function Deck () {
             }}>
             <img src='/images/backarrow.png'></img>
           </div>
-          <img
-            className='rounded shadow-lg h-96'
-            src={images[currentImage].imageUrl}
-          >
-          </img>
+          <div>
+            <img
+              className='rounded shadow-lg h-96'
+              src={images[currentImage].imageUrl}
+            >
+            </img>
+            <p className='mt-2'><em>{images[currentImage].title}</em></p>
+          </div>
           <div className='m-auto pl-6 align-middle cursor-pointer'
             onClick={() => {
               currentImage < images.length - 1 && setCurrentImage(currentImage + 1)
