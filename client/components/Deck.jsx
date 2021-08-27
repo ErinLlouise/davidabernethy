@@ -5,26 +5,25 @@ function Deck () {
   const [currentImage, setCurrentImage] = useState(0)
   return (
     <>
-      <div className='flex'>
-        <div className='float-left'>
-          <button onClick={() => {
-            console.log('this has been clicked')
-            currentImage > 0 && setCurrentImage(currentImage - 1)
-          }}
-          >back</button>
-        </div>
-        <img
-          className='w-96 h-auto'
-          src={images[currentImage].imageUrl}
-          // style={{ mainImage: `url(${images[currentImage].imageUrl})` }}
-        >
-        </img>
-        <div className='float-right'>
-          <button onClick={() => {
-            console.log('this has been clicked')
-            currentImage < images.length - 1 && setCurrentImage(currentImage + 1)
-          }}
-          >forward</button>
+      <div className='flex justify-center'>
+        <div className='flex m-20'>
+          <div className='m-auto pr-6 align-middle cursor-pointer'
+            onClick={() => {
+              currentImage > 0 && setCurrentImage(currentImage - 1)
+            }}>
+            <img src='/images/backarrow.png'></img>
+          </div>
+          <img
+            className='rounded shadow-lg h-96'
+            src={images[currentImage].imageUrl}
+          >
+          </img>
+          <div className='m-auto pl-6 align-middle cursor-pointer'
+            onClick={() => {
+              currentImage < images.length - 1 && setCurrentImage(currentImage + 1)
+            }}>
+            <img src='/images/forwardarrow.png'></img>
+          </div>
         </div>
       </div>
     </>
