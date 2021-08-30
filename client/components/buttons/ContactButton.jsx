@@ -5,7 +5,7 @@ function ContactButton () {
   return (
     <div>
       <Link to='/contact'>
-        <button className="pl-4 pr-4 text-white hover:text-yellow-500 transition ease-out duration-500">contact</button>
+        <button className="text-white hover:text-yellow-500 transition ease-out duration-500">contact</button>
       </Link>
     </div>
   )

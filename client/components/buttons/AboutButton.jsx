@@ -5,7 +5,7 @@ function AboutButton () {
   return (
     <div>
       <Link to='/about'>
-        <button className="pr-4 text-white hover:text-yellow-500 transition ease-out duration-500">about</button>
+        <button className="text-white hover:text-yellow-500 transition ease-out duration-500">about</button>
       </Link>
     </div>
   )
