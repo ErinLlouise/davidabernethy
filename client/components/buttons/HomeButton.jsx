@@ -5,7 +5,7 @@ function HomeButton () {
   return (
     <div>
       <Link to='/'>
-        <img className='h-16 w-auto'src='/images/praxiswhite.png'></img>
+        <img className='h-20 mt-8 mb-8 w-auto'src='/images/praxiswhite.png'></img>
       </Link>
     </div>
   )
