@@ -1,42 +1,29 @@
-// import React from 'react'
-import AboutButton from './buttons/AboutButton'
-import ContactButton from './buttons/ContactButton'
-import HomeButton from './buttons/HomeButton'
-
-// function Header () {
-//   return (
-//     <>
-//       <div className='z-40 sticky top-0 flex items-center justify-between p-4 shadow-xl bg-black bg-opacity-90'>
-//         <HomeButton />
-//         <div className='flex'>
-//           <AboutButton />
-//           <ContactButton />
-//         </div>
-//       </div>
-//     </>
-//   )
-// }
-
-// export default Header
-
 import React, { useState } from 'react'
 import { Transition } from '@headlessui/react'
+
+import ContactButton from './buttons/ContactButton'
+import AboutButton from './buttons/AboutButton'
+import HomeButton from './buttons/HomeButton'
 
 function Header () {
   const [isOpen, setIsOpen] = useState(false)
   return (
-    <div>
-      <nav className="z-40 sticky top-0 flex justify-between p-4 shadow-xl bg-black bg-opacity-90">
+    <div className='z-40 sticky top-0'>
+      <nav className="bg-black shadow-xl opacity-90">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center">
-            <div className="flex float-left">
+          <div className="flex items-center justify-between h-16">
+            <div className="flex items-center">
               <div className="flex-shrink-0">
                 <HomeButton />
               </div>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
-                  <AboutButton />
-                  <ContactButton />
+                  <div>
+                    <AboutButton />
+                  </div>
+                  <div>
+                    <ContactButton />
+                  </div>
                 </div>
               </div>
             </div>
@@ -44,7 +31,7 @@ function Header () {
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
-                className="bg-gray-900 inline-flex items-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                className="bg-gray-900 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-yellow-500 hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                 aria-controls="mobile-menu"
                 aria-expanded="false"
               >
@@ -99,8 +86,19 @@ function Header () {
           {(ref) => (
             <div className="md:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <AboutButton />
-                <ContactButton />
+                <a
+                  href="#"
+                  className="text-white hover:text-yellow-500 transition ease-out duration-500 block px-3 py-2 rounded-md text-base"
+                >
+                  About
+                </a>
+
+                <a
+                  href="#"
+                  className="text-white hover:text-yellow-500 transition ease-out duration-500 block px-3 py-2 rounded-md text-base"
+                >
+                  Contact
+                </a>
               </div>
             </div>
           )}
