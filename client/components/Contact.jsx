@@ -1,4 +1,5 @@
 import React from 'react'
+import CopyToboard from './CopyToBoard'
 
 function Contact () {
   return (
@@ -19,12 +20,13 @@ function Contact () {
               <figcaption className='mt-8 text-xs flex justify-center'>Follow Praxis Books on Facebook</figcaption>
             </a>
           </figure>
-          <figure>
+          <CopyToboard />
+          {/* <figure>
             <a to=''>
               <img className='cursor-pointer transform hover:scale-105 duration-500 h-40 w-auto'src='/images/mail.png'></img>
               <figcaption className='mt-8 text-xs flex justify-center'>Click to copy email to clipboard</figcaption>
             </a>
-          </figure>
+          </figure> */}
         </div>
 
       </div>
