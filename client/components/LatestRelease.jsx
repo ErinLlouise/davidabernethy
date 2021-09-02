@@ -23,7 +23,7 @@ function LatestRelease () {
                 earthly priorities tended to hinder rather than help him. Things become
                 really crazy when the FBI get involved.
               </p>
-              <div className='mt-4'>
+              <div className='mt-4 flex justify-center'>
                 <IqSeeMoreButton />
               </div>
             </div>

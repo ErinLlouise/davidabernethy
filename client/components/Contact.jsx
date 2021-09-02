@@ -5,8 +5,7 @@ function Contact () {
   return (
     <>
       <div className='min-h-screen'>
-        <h1 className='flex justify-center font-hero-font font-serif text-6xl m-12'>Contact</h1>
-        <p className='flex justify-center font-serif text-2xl mb-16'>Get in touch</p>
+        <h1 className='flex justify-center font-hero-font font-serif text-6xl mt-20 mb-24'>Get in touch</h1>
         <div className='flex justify-center space-x-6 mb-20'>
           <figure>
             <a href='https://www.linkedin.com/in/david-abernethy-b9716042/'>

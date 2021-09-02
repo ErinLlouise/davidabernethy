@@ -3,7 +3,6 @@ import React from 'react'
 function About () {
   return (
     <>
-      <h1 className='flex justify-center font-hero-font font-serif text-6xl mt-12'>About</h1>
       <div className='mt-20'>
         <div className='grid grid-flow-col grid-cols-12 grid-rows-12 gap-4'>
           <h1 className='col-start-3 col-span-4 row-start-1 font-hero-font font-serif text-7xl'>David Abernethy</h1>
